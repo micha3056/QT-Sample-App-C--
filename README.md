@@ -45,4 +45,4 @@ int main()
 ##Screenshots
 <img src="./screenshots/Gui.png" width="600">
 
-
+![Gui](./screenshots/Gui.png)
