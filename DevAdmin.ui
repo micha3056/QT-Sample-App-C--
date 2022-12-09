@@ -26,7 +26,7 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalButtonRow">
         <item>
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="pushButton_Add">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
             <horstretch>0</horstretch>

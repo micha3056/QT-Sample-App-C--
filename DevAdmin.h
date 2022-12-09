@@ -13,4 +13,8 @@ public:
 
 private:
     Ui::DevAdminClass ui;
+
+private slots:
+    void on_pushButton_Options_clicked();
+    void on_pushButton_Add_clicked();
 };

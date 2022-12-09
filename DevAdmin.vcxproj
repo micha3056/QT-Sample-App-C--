@@ -90,11 +90,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Settings.cpp" />
     <QtRcc Include="DevAdmin.qrc" />
     <QtUic Include="DevAdmin.ui" />
     <QtMoc Include="DevAdmin.h" />
     <ClCompile Include="DevAdmin.cpp" />
     <ClCompile Include="main.cpp" />
+    <QtUic Include="Settings.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Settings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

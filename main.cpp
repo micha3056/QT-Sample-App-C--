@@ -1,4 +1,6 @@
 #include "DevAdmin.h"
+#include "Settings.h"
+
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])

@@ -1,4 +1,7 @@
 #include "DevAdmin.h"
+#include "Settings.h"
+#include <QDebug>
+#include <QMessageBox>
 
 DevAdmin::DevAdmin(QWidget *parent)
     : QMainWindow(parent)
@@ -12,3 +15,23 @@ DevAdmin::DevAdmin(QWidget *parent)
 
 DevAdmin::~DevAdmin()
 {}
+
+void callMessageBox()
+{
+    QMessageBox msgBox;
+    msgBox.setText("The document has been modified.");
+    msgBox.setStandardButtons(QMessageBox::Cancel);
+    int ret = msgBox.exec();
+}
+
+void DevAdmin::on_pushButton_Options_clicked()
+{
+    callMessageBox();
+    auto settingsDialog = new Settings(this);
+    settingsDialog->show();
+}
+
+void DevAdmin::on_pushButton_Add_clicked()
+{
+    callMessageBox();
+}

@@ -46,3 +46,9 @@ int main()
 <img src="./screenshots/Gui.png" width="600">
 
 ![Gui](./screenshots/Gui.png)
+
+#Links
+https://stackoverflow.com/questions/58401595/reading-a-json-file-with-jsoncpp
+
+amalgated include directly:
+https://stackoverflow.com/questions/26768639/jsoncpp-to-visual-studio
