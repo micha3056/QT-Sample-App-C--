@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/DevAdmin">
+        <file>ressources/add-box-svgrepo-com.svg</file>
+        <file>ressources/arrow-drop-right-svgrepo-com.svg</file>
+        <file>ressources/arrow-right-circle-svgrepo-com.svg</file>
+        <file>ressources/article-svgrepo-com.svg</file>
+        <file>ressources/bookmark-svgrepo-com.svg</file>
+        <file>ressources/chat-settings-svgrepo-com.svg</file>
+        <file>ressources/checkbox-indeterminate-svgrepo-com.svg</file>
+        <file>ressources/checkbox-svgrepo-com.svg</file>
+        <file>ressources/finder-svgrepo-com.svg</file>
+        <file>ressources/hammer-svgrepo-com.svg</file>
+    </qresource>
+</RCC>
