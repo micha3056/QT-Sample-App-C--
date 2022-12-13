@@ -23,23 +23,26 @@ int main()
 5.  Visual Studio > Project > Properties > C/C++ (`Additional Include Directories: "C:\Binaries\eigen-3.4.0\"`)
 
 ## How to include a library in C++
-Link to  [JSON Library](https://github.com/nlohmann/json)
-1.  download JSON LIB source: https://gitlab.com/libeigen/eigen/-/releases/3.4.0
-2.  Paste sample code:
+Link to  [JSON Library](https://github.com/open-source-parsers/jsoncpp)
+1.  Paste sample code:
 ```sh
 #include <fstream>
-#include <nlohmann/json.hpp>
-using json = nlohmann::json;
+#include <iostream>
+#include "json\json.h"
+using namespace std;
+using namespace Json;
 
-int main()
-{
-	std::ifstream f("example.json");
-	json data = json::parse(f);
-}
+ //1. If file exists, read from file
+    std::string filePath = "setting.json";
+    JsonWrapper s;
+    cout << "is file: " << s.isFile(filePath);
 
 ```
+2. run amalgamate.py, source and header files are created in "dist" directory
+3. copy and include files in "dist" folder within your project
+4. use the created JsonWrapper class!
 5.  Visual Studio > Project > Properties > C/C++ (`Additional Include Directories: "C:\Binaries\eigen-3.4.0\"`)
-6. Visual Studio > Project > Properties > Linker > General(`Additional Library Directories: "C:\Binaries\json-develop`) not needed
+6. (Visual Studio > Project > Properties > Linker > General(`Additional Library Directories: "C:\Binaries\json-develop`) --> not needed!!)
 7.  Click Linker and add the Libraries Search Path
 
 ##Screenshots
