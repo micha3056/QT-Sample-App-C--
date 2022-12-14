@@ -40,7 +40,7 @@
       <item row="2" column="1">
        <widget class="QCheckBox" name="checkDebugConsole">
         <property name="text">
-         <string>active</string>
+         <string>active (restart required)</string>
         </property>
         <property name="checked">
          <bool>true</bool>

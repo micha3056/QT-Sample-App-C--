@@ -49,6 +49,9 @@
     <ClCompile Include="..\..\C++\QTProject\Project1\Project1\jsoncpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WindowsConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Settings.h">
@@ -68,6 +71,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\C++\QTProject\Project1\Project1\json\json-forwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsConsole.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

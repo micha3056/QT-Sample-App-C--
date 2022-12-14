@@ -1,7 +1,9 @@
 #include "Settings.h"
 #include "JsonWrapper.h"
+//#include "WindowsConsole.h"
 #include <iostream>
 #include <QDebug>
+
 
 Settings::Settings(QWidget *parent)
 	: QMainWindow(parent)
