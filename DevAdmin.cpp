@@ -2,6 +2,7 @@
 #include "Settings.h"
 #include <QDebug>
 #include <QMessageBox>
+#include "Powershell.h"
 
 DevAdmin::DevAdmin(QWidget *parent)
     : QMainWindow(parent)
@@ -34,4 +35,9 @@ void DevAdmin::on_pushButton_Options_clicked()
 void DevAdmin::on_pushButton_Add_clicked()
 {
     callMessageBox();
+}
+
+void DevAdmin::on_pushButton_killPort_clicked()
+{
+    killPort(3000);
 }

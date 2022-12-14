@@ -96,7 +96,9 @@
   <ItemGroup>
     <ClCompile Include="..\..\C++\QTProject\Project1\Project1\jsoncpp.cpp" />
     <ClCompile Include="JsonWrapper.cpp" />
+    <ClCompile Include="Powershell.cpp" />
     <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="utilities.cpp" />
     <ClCompile Include="WindowsConsole.cpp" />
     <QtRcc Include="DevAdmin.qrc" />
     <QtUic Include="DevAdmin.ui" />
@@ -112,6 +114,8 @@
     <ClInclude Include="..\..\C++\QTProject\Project1\Project1\json\json-forwards.h" />
     <ClInclude Include="..\..\C++\QTProject\Project1\Project1\json\json.h" />
     <ClInclude Include="JsonWrapper.h" />
+    <ClInclude Include="Powershell.h" />
+    <ClInclude Include="utilities.h" />
     <ClInclude Include="WindowsConsole.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

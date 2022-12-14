@@ -17,4 +17,5 @@ private:
 private slots:
     void on_pushButton_Options_clicked();
     void on_pushButton_Add_clicked();
+    void on_pushButton_killPort_clicked();
 };
