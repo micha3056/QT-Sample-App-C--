@@ -54,4 +54,8 @@ using namespace Json;
 https://stackoverflow.com/questions/58401595/reading-a-json-file-with-jsoncpp
 
 amalgated include directly:
+https://github.com/open-source-parsers/jsoncpp
 https://stackoverflow.com/questions/26768639/jsoncpp-to-visual-studio
+
+Form Layout:
+https://www.youtube.com/watch?v=gWa2rqe8l6E&t=237s

@@ -6,6 +6,8 @@
 class Settings : public QMainWindow
 {
 	Q_OBJECT
+protected:
+	void closeEvent(QCloseEvent* event) override;
 
 public:
 	Settings(QWidget *parent = nullptr);

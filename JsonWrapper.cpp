@@ -27,10 +27,14 @@ void JsonWrapper::save(std::string filePath)
     myfile << settings << std::endl;
     myfile.close();
 }
-template <typename T>
-void JsonWrapper::setProperty(std::string property, T value, ...) {
-    settings[property] = value;
-}
+//template <typename T>
+//T JsonWrapper::add(T num1, T num2) {
+//    return (num1 + num2);
+//}
+//template <typename T>
+//void JsonWrapper::setProperty(std::string property, T value) {
+//    settings[property] = value;
+//}
 Json::Value JsonWrapper::getProperty(std::string property)
 {
     return settings[property.c_str()];;

@@ -26,7 +26,7 @@ void callMessageBox()
 
 void DevAdmin::on_pushButton_Options_clicked()
 {
-    callMessageBox();
+    //callMessageBox();
     auto settingsDialog = new Settings(this);
     settingsDialog->show();
 }
