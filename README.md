@@ -48,8 +48,6 @@ using namespace Json;
 ##Screenshots
 <img src="./screenshots/Gui.png" width="600">
 
-![Gui](./screenshots/Gui.png)
-
 #Links
 https://stackoverflow.com/questions/58401595/reading-a-json-file-with-jsoncpp
 
