@@ -1,5 +1,18 @@
 # QT Widget App: DevAdmin
 
+## How add multiple libraries into VS
+1. install vcpkg:
+```
+  new dictionary: c:\vcpkg
+  cd vcpkg
+  git clone https://github.com/microsoft/vcpkg.git
+  .\bootstrap-vcpkg.bat
+```
+2. install packages: .\vcpkg install curl
+3. environmental variables: VCPKG_ROOT=C:\vcpkg; VCPKG_DEFAULT_TRIPLET=x64-windows; PATH+= C:\vcpkg
+3. integrate in VS (Powershell-Developer Conmsole): vcpkg integrate install
+4. add library to project: VC Directories/Include Dirs (VC++-Verzeichnisse(Includeverzeichnisse): C:\vcpkg\packages\curl_x64-windows\include
+
 ## How to compile a C++ library with Visual Studio
 Link to  [Tutorial Eigen Compile](https://eigen.tuxfamily.org/dox/GettingStarted.html)
 1.  download EIGEN source: https://gitlab.com/libeigen/eigen/-/releases/3.4.0
